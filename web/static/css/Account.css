@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0 25px;
+    color: #2e7d32;
+    font-size: 26px;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto 60px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #2e7d32;
+    color: white;
+}
+
+th {
+    padding: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f1f8f4;
+}
+
+
+tbody tr:hover {
+    background-color: #e8f5e9;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+a[href*="view"] {
+    background-color: #4caf50;
+}
+
+a[href*="view"]:hover {
+    background-color: #388e3c;
+}
+
+
+a[href*="update"] {
+    background-color: #2196f3;
+}
+
+a[href*="update"]:hover {
+    background-color: #1565c0;
+}
+
+
+a[href*="delete"] {
+    background-color: #f44336;
+}
+
+a[href*="delete"]:hover {
+    background-color: #c62828;
+}
+
+
+table tbody tr:first-child {
+    background-color: #c8e6c9;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,71 @@
+/* ===== DELETE CONFIRM PAGE ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Khung xác nhận */
+.delete-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 420px;
+}
+
+/* Bảng */
+.delete-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Thông báo */
+.delete-container .message {
+    font-size: 18px;
+    color: #c62828;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+.delete-container .actions {
+    padding-top: 10px;
+}
+
+
+.delete-container input[type="submit"] {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+/* YES */
+.delete-container input[value="Yes"] {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-container input[value="Yes"]:hover {
+    background-color: #c62828;
+}
+
+/* NO */
+.delete-container input[value="No"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.delete-container input[value="No"]:hover {
+    background-color: #2e7d32;
+}
